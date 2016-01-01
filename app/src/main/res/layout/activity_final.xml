@@ -6,36 +6,27 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/question" />
+        android:text="Thanks for playing!" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
-        android:visibility="gone"
-        android:id="@+id/feedback" />
+        android:text="Total of right answers:" />
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/option1"
-        android:onClick="onSelectedOption" />
+        android:id="@+id/total_right" />
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/option2"
-        android:onClick="onSelectedOption" />
+        android:text="Total of wrong answers:" />
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/option3"
-        android:onClick="onSelectedOption" />
+        android:id="@+id/total_wrong" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/option4"
-        android:onClick="onSelectedOption" />
+
 </LinearLayout>

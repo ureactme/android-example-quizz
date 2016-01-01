@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UReactme Quizz</string>
+    <string name="ureactme_api_key">INSERT YOUR API KEY HERE 123</string>
 </resources>
